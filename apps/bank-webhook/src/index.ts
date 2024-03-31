@@ -1,5 +1,6 @@
 import express from "express";
 import db from "@repo/db/client";
+const bodyParser = require("body-parser");
 const app = express();
 
 app.use(express.json())
