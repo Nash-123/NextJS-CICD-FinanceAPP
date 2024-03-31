@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Providers } from "../provider";
+import { NextRequest, NextResponse } from "../../../node_modules/next/server";
 
 const inter = Inter({ subsets: ["latin"] });
 
