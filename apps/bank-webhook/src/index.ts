@@ -1,9 +1,6 @@
 import express from "express";
 import db from "@repo/db/client";
 
-const file_parser1 =  require("file_parser");
-
-const bodyParser = require("body-parser");
 
 const app = express();
 
